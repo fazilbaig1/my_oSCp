@@ -576,7 +576,7 @@ And `user.txt`:
 ```
 
 ## Shell as domainadmin
-
+METHOD : 1
 ---
 # 🛡️ Exploitation Steps: support.htb Domain Controller (RBCD + ShadowCred)
 
@@ -811,7 +811,7 @@ dsrm "CN=RBCD,CN=Computers,DC=support,DC=htb"
 **Use this flow as an OSCP-ready template.**
 ___
 
-
+METHOD : 2
 ### Enumeration
 
 Looking at the Bloodhound data again, the support user is a member of the Shared Support Accounts group, which has `GenericAll` on the computer object, DC.SUPPORT.HTB:
